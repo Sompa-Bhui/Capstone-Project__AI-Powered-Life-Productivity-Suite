@@ -24,7 +24,7 @@ The **AI Productivity Suite** is a collection of smart AI-driven tools designed 
 ---
 
 ## 🌍 Live Demo (In Progress)  
-🔗 [AI Productivity Suite - Live Project](https://sompa-bhui.github.io/AI-Productivity-Suite/)  
+🔗 [AI Productivity Suite - Live Project](https://sompa-bhui.github.io/Capstone-Project__AI-Powered-Life-Productivity-Suite/)  
 
 *(Note: Link may not be fully functional yet as the project is under development.)*  
 
