@@ -43,11 +43,4 @@ The **AI Productivity Suite** is a collection of smart AI-driven tools designed 
 - Khushi Pandey
 - Sunay Nagpure
 - Prakhar Saxena
-
----
-
-## 📅 Timeline  
-- **Jan – Feb 2025** → UI & module planning  
-- **Mar 2025** → Smart Expense Categoriser implementation  
-- **Apr – May 2025** → AI Interview + Playlist Generator  
-- **Jun 2025** → Medical Assistant & Final deployment  
+ 
