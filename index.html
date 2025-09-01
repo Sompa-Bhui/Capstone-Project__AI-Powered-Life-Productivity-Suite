@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Powered Productivity Suite</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      color: #333;
+    }
+
+    header {
+      background: #6a11cb;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #6a11cb;
+    }
+
+    .card p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 18px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(45deg, #6a11cb, #2575fc);
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(45deg, #2575fc, #6a11cb);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f9f9f9;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🚀 AI Powered Productivity Suite</h1>
+    <p>Boost your efficiency with our smart AI-driven dashboards ✨</p>
+  </header>
+
+  <main class="cards">
+    <!-- Card 1 (Now Smart Expense Categoriser First) -->
+    <div class="card">
+      <h2>📊 Smart Expense Categoriser</h2>
+      <p>
+        Track, analyze, and categorize your expenses with AI insights. 
+        Gain control of your finances with smart analytics.
+      </p>
+      <a href="expense.html" class="btn">Open Dashboard</a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <h2>📝 AI Interview Question Generator</h2>
+      <p>
+        Prepare smarter with AI-curated interview questions tailored to your role 
+        and skills. Practice confidently and crack your next interview.
+      </p>
+      <a href="interview.html" class="btn">Open Dashboard</a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <h2>🎶 Emotion-based Playlist Generator</h2>
+      <p>
+        Generate personalized music playlists based on your mood and emotions. 
+        Let AI set the perfect vibe for your day.
+      </p>
+      <a href="playlist.html" class="btn">Open Dashboard</a>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+      <h2>💊 Medical Assistant + Reminders</h2>
+      <p>
+        Stay healthy with AI-powered reminders, track medications, and maintain 
+        medical notes all in one place.
+      </p>
+      <a href="medical.html" class="btn">Open Dashboard</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 AI Productivity Suite 
+  </footer>
+</body>
+</html>
